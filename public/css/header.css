@@ -60,7 +60,6 @@ nav .active {
 nav {
     width: 40%;
 }
-
 .header{
     height: 7em;
     left: 0px;
@@ -82,7 +81,7 @@ nav {
     width: 90vw;
 }
 
-#footer, #header{
+#footer, .header{
     background-color: #50032F;
     background-image: linear-gradient(90deg,#35031f, #50032F, #620439,#50032F, #35031f);
     width: 100vw;
