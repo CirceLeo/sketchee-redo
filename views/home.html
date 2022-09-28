@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/sketchee-redo/public/css/header.css">
+</head>
+<body>
+    <header class="header">
+        <div class='header-content'>
+        <!-- <img src={logo} onClick={() => navigateTo('/')} className='logo'/> -->
+
+        <!-- {
+            (howToOpen && location.pathname === '/play') && (
+                <>
+                    <div className="overlay" onClick={closeHowTo}></div>
+                    <div className="modal">
+                        <HowToPlay closeHowTo={closeHowTo}/>
+                    </div>
+                </> 
+            )
+        }  -->
+        <!-- {/* { user.username ? <p>{user.username}</p> : <p> No one is logged in</p>} */} -->
+        <nav>
+            <a  href= '/'>Home</a>
+            <a  href= '/gallery'>Gallery</a>
+            <a  href= '/play'>Play!</a> 
+            <!-- { location.pathname === '/play' ? <button onClick={openHowTo}className='header-btn'>How to Play</button> : null} -->
+            <!-- { user.username ?
+                <>
+                    <NavLink to ='/me'>User Page</NavLink> 
+                    <button  onClick={handleLogOut} className='header-btn'>Log Out</button>
+                </>: 
+                    <button className='header-btn' onClick={openLoginModal}>Login?</button>
+            }                 -->
+        </nav>
+    </div>
+    </header>
+</body>
+</html>
