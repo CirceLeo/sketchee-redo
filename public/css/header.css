@@ -1,0 +1,107 @@
+nav a, nav .header-btn, .gallery-button{
+    text-decoration: none;
+    color: #360621;
+    padding: .4em 1em;
+    /* background-color: antiquewhite; */
+    background-image: linear-gradient(#FAD5AB, #EFC089, #C68C48 );
+    transition: all ease-in-out 0.5s;
+    border-radius: 1em;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 0.5em;
+    margin-left: .5em;
+    white-space: nowrap;
+
+    /* height: 2.5em; */
+    /* width: fit-content; */
+}
+
+nav a:hover,  nav .header-btn:hover, .gallery-button:hover {
+    transition: all ease-in-out 0.3s;
+    color: black;
+    border-radius: 2em;
+    padding: .2em .75em;
+
+    height: fit-content;
+    /* width: .5em; */
+    filter: grayscale(50%);
+    background-image: linear-gradient( #C68C48, #FAD5AB);
+}
+
+.logo {
+    transition: .7s;
+    padding-left: 3em;
+}
+
+.logo:hover {
+    filter: grayscale(50%);
+    transform: scale(0.9);
+}
+
+#header img {
+    height: 5em;
+    /* box-shadow: 2px 2px #360621; */
+    margin: 0px;
+}
+
+/* #game-page button {
+    margin-top: 0em;
+} */
+
+
+
+nav .active {
+    background-image: linear-gradient( #C68C48, #FAD5AB);
+    border-radius: 1em;
+    text-decoration: underline;
+}
+
+nav {
+    width: 40%;
+}
+#header{
+    height: 7em;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px #360621;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer{
+    box-shadow: -2px -4px 4px #360621;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+#footer, #header{
+    background-color: #50032F;
+    background-image: linear-gradient(90deg,#35031f, #50032F, #620439,#50032F, #35031f);
+    width: 100vw;
+    color: white;
+    position: absolute;
+}
+
+#footer p{
+    padding: 0em;
+    margin: 0em;
+    left: 0px;
+    top: 100%;
+}
+
+#footer a{
+    color: white;
+}
+
+
+#footer {
+    height: 2em;
+    /* top: 1000px; */
+}
