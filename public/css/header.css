@@ -45,12 +45,6 @@ nav a:hover,  nav .header-btn:hover, .gallery-button:hover {
     margin: 0px;
 }
 
-/* #game-page button {
-    margin-top: 0em;
-} */
-
-
-
 nav .active {
     background-image: linear-gradient( #C68C48, #FAD5AB);
     border-radius: 1em;
