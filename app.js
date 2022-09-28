@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //routes
 const userRoutes = require('./routes/user');
- 
+
 //set up route
 app.use(userRoutes);
 

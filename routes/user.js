@@ -11,7 +11,6 @@ const router = express.Router();
 //Homepage for the user when connected through a get
 router.get('/', (req, res, next) =>{
     //send html info as a res when hit as get method
-    console.log('did i make it here?');
     res.sendFile(path.join(rootDir, 'views', 'home.html'));
 });
 
